@@ -1,0 +1,14 @@
+PODS:
+  - HaidoraStepProgressView (0.1.0)
+
+DEPENDENCIES:
+  - HaidoraStepProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraStepProgressView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraStepProgressView: 3499e04e22e92be8092b3a05df718a3756be78a4
+
+COCOAPODS: 0.37.2

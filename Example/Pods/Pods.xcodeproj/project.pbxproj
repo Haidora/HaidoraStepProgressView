@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011C621F66A19E0092B69D05 /* HDStepProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E997BE52F17AF14BA48170AE /* HDStepProgressView.m */; };
+		1B858F7F52EB30E73D3A946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D404BC1B8397B29AC8365 /* Foundation.framework */; };
+		402E01CB39A588817BF04305 /* HaidoraStepProgressView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C15888075F5AC6B54A3F6224 /* HaidoraStepProgressView.bundle */; };
+		475E6500BD1CC6E809CD8D2F /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E5313F45031B5C70AFAB9 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m */; };
+		5A924BE440163D82045F271E /* HDStepProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 679308835A0A7486C6A413C6 /* HDStepProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A5F0EEA75F389A60A6A940 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E17F294A64FCD3F3275EDC0C /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DE00CEE8752BA56004E65E /* HDStepProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E997BE52F17AF14BA48170AE /* HDStepProgressView.m */; };
+		9D24B5C9A59F2701E65FB8F7 /* Pods-HaidoraStepProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D006ADD5C3D73621D8756A /* Pods-HaidoraStepProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A448B5430211E9F212404EDF /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E29EFA899F2F175E61A63EA /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E3DE57DBBAC6A3CD8EFBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D404BC1B8397B29AC8365 /* Foundation.framework */; };
+		B5050C5D6287C230A68B1950 /* Pods-HaidoraStepProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA210FB7B01FC8DEB7E0BA90 /* Pods-HaidoraStepProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DD541C7E440E77378C1724 /* Pods-HaidoraStepProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4CDF0A1C1682F15B17921D /* Pods-HaidoraStepProgressView_Example-dummy.m */; };
+		DDFAB72CA265F0085C61B4E4 /* HaidoraStepProgressView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6B5D119459E801ACCA831 /* HaidoraStepProgressView.bundle */; };
+		DF6106CBFE8DC19AC6398BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D404BC1B8397B29AC8365 /* Foundation.framework */; };
+		E85DD7D3A1B13A22E177C9FF /* HDStepProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 679308835A0A7486C6A413C6 /* HDStepProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16502B7BB058042E155B54E /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9139BA5E61BF244D930A19 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m */; };
+		FCF981F71712F1A9AB9C0861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D404BC1B8397B29AC8365 /* Foundation.framework */; };
+		FF705A803B45A2A312A37AA4 /* Pods-HaidoraStepProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEEBF34794CDE2EF56A545 /* Pods-HaidoraStepProgressView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB7D8000933F642080EB008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FBC4FF4D10CEEB5A587E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B1C2D14BF443766B0E64C8;
+			remoteInfo = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView";
+		};
+		2FAE89989527737B09F9BE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FBC4FF4D10CEEB5A587E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10150967E9AD4FA6DB04C46;
+			remoteInfo = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView";
+		};
+		5704817BD29B5B384FFE55ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FBC4FF4D10CEEB5A587E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B771F992E8CB578D86191EC;
+			remoteInfo = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView";
+		};
+		CF10ACD2D082443E64878251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FBC4FF4D10CEEB5A587E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F927695AB14E30D7A13CA5;
+			remoteInfo = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064CD0A8710C6C139B50D82D /* HaidoraStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF16974813B74F8EEB08526 /* Pods-HaidoraStepProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraStepProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D6D404BC1B8397B29AC8365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0E29EFA899F2F175E61A63EA /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h"; sourceTree = "<group>"; };
+		10D006ADD5C3D73621D8756A /* Pods-HaidoraStepProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1CA6B5D119459E801ACCA831 /* HaidoraStepProgressView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraStepProgressView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27528C492DCA4634DCD43429 /* Pods-HaidoraStepProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		30ED68C0E9F4DC93352BEC81 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.xcconfig"; sourceTree = "<group>"; };
+		3A4105A1400F1661B49F1E8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Info.plist"; sourceTree = "<group>"; };
+		527EAD65D6E7B5B5EB92179B /* Pods-HaidoraStepProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraStepProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52DB619060801B322C349B09 /* Pods-HaidoraStepProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55FE69EF852BB368B0DC5FCD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-prefix.pch"; sourceTree = "<group>"; };
+		58FCB56451C3052EA3395729 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		605B3F4C46F638572E12D7D6 /* HaidoraStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679308835A0A7486C6A413C6 /* HDStepProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDStepProgressView.h; sourceTree = "<group>"; };
+		6996196B723F86169FA01D4D /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.xcconfig"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.xcconfig"; sourceTree = "<group>"; };
+		6A6C80D2DE838AFFDAB18829 /* Pods_HaidoraStepProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraStepProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8C0E7DDAB6B5DD17DC573A /* Pods-HaidoraStepProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraStepProgressView_Example.modulemap"; sourceTree = "<group>"; };
+		6D61A89FCC7F98ADD5F9E71E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856ABC436CDE606ECBC2D2F7 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch"; sourceTree = "<group>"; };
+		8B5EF55558F605988272514B /* Pods-HaidoraStepProgressView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Tests-environment.h"; sourceTree = "<group>"; };
+		8B8922DB53A1B79E39D60CBC /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.modulemap"; sourceTree = "<group>"; };
+		8CDEEBF34794CDE2EF56A545 /* Pods-HaidoraStepProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraStepProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
+		900A9B11290F81EC1477BB76 /* Pods-HaidoraStepProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraStepProgressView_Tests.modulemap"; sourceTree = "<group>"; };
+		933E5313F45031B5C70AFAB9 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m"; sourceTree = "<group>"; };
+		9417C03E17E76DF8859375F5 /* Pods-HaidoraStepProgressView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraStepProgressView_Tests-resources.sh"; sourceTree = "<group>"; };
+		95FD5B6CCDDCA858D1220754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981C793D40C05807B143C2EC /* Pods-HaidoraStepProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD1612003E48A606980BBF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6DAE2703F32A984C99A49D /* Pods-HaidoraStepProgressView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Example-environment.h"; sourceTree = "<group>"; };
+		A1F9B23DBA11649F01BE3090 /* Pods-HaidoraStepProgressView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraStepProgressView_Example-resources.sh"; sourceTree = "<group>"; };
+		A898F7DD815C5270BEAB879B /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap"; sourceTree = "<group>"; };
+		AA210FB7B01FC8DEB7E0BA90 /* Pods-HaidoraStepProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraStepProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AB69F1B744180160ECEA7539 /* Pods-HaidoraStepProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraStepProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B206600F7EC395E29506B0D9 /* Pods_HaidoraStepProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraStepProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B4B88BB66B122854FCC198 /* Pods-HaidoraStepProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraStepProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCD32F096F6DE44A840CB708 /* Pods-HaidoraStepProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4CDF0A1C1682F15B17921D /* Pods-HaidoraStepProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraStepProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		C15888075F5AC6B54A3F6224 /* HaidoraStepProgressView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraStepProgressView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig"; sourceTree = "<group>"; };
+		E17F294A64FCD3F3275EDC0C /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h"; sourceTree = "<group>"; };
+		E997BE52F17AF14BA48170AE /* HDStepProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDStepProgressView.m; sourceTree = "<group>"; };
+		F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig"; sourceTree = "<group>"; };
+		F84600311A7077AF31CCECAA /* Pods-HaidoraStepProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraStepProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F860E34C96751518703CD9D7 /* Pods-HaidoraStepProgressView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraStepProgressView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FA9139BA5E61BF244D930A19 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m"; path = "../Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1708F88A4523B691EA8BDEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31EAB2A94D941D1AE4F87028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E3DE57DBBAC6A3CD8EFBDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498CA0980746CB5B6621F753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6309E893A2143E50FB010DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF981F71712F1A9AB9C0861 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF40562D5CC97019899817A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6106CBFE8DC19AC6398BF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDFA0124D01C7CB356B710A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B858F7F52EB30E73D3A946C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53122E15A0E7582DDB541C6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				679308835A0A7486C6A413C6 /* HDStepProgressView.h */,
+				E997BE52F17AF14BA48170AE /* HDStepProgressView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		609D16BB94C18D173AAF262C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6487A2DC56BB5EE5BA050E59 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6487A2DC56BB5EE5BA050E59 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D6D404BC1B8397B29AC8365 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E4193605D41D34B601770E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B6B91944EDE66E3F434EE /* Pods-HaidoraStepProgressView_Example */,
+				82EF101C328C3D131B477034 /* Pods-HaidoraStepProgressView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		82EF101C328C3D131B477034 /* Pods-HaidoraStepProgressView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95FD5B6CCDDCA858D1220754 /* Info.plist */,
+				900A9B11290F81EC1477BB76 /* Pods-HaidoraStepProgressView_Tests.modulemap */,
+				527EAD65D6E7B5B5EB92179B /* Pods-HaidoraStepProgressView_Tests-acknowledgements.markdown */,
+				F84600311A7077AF31CCECAA /* Pods-HaidoraStepProgressView_Tests-acknowledgements.plist */,
+				8CDEEBF34794CDE2EF56A545 /* Pods-HaidoraStepProgressView_Tests-dummy.m */,
+				8B5EF55558F605988272514B /* Pods-HaidoraStepProgressView_Tests-environment.h */,
+				F860E34C96751518703CD9D7 /* Pods-HaidoraStepProgressView_Tests-frameworks.sh */,
+				9417C03E17E76DF8859375F5 /* Pods-HaidoraStepProgressView_Tests-resources.sh */,
+				AA210FB7B01FC8DEB7E0BA90 /* Pods-HaidoraStepProgressView_Tests-umbrella.h */,
+				981C793D40C05807B143C2EC /* Pods-HaidoraStepProgressView_Tests.debug.xcconfig */,
+				52DB619060801B322C349B09 /* Pods-HaidoraStepProgressView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HaidoraStepProgressView_Tests";
+			path = "Target Support Files/Pods-HaidoraStepProgressView_Tests";
+			sourceTree = "<group>";
+		};
+		8AED7E995527F721043943C8 = {
+			isa = PBXGroup;
+			children = (
+				58FCB56451C3052EA3395729 /* Podfile */,
+				D521562D85AC5889E9FCD815 /* Development Pods */,
+				609D16BB94C18D173AAF262C /* Frameworks */,
+				9E81E3599EDDD7D4F9B3E84C /* Products */,
+				7E4193605D41D34B601770E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7B6B91944EDE66E3F434EE /* Pods-HaidoraStepProgressView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1612003E48A606980BBF7 /* Info.plist */,
+				6C8C0E7DDAB6B5DD17DC573A /* Pods-HaidoraStepProgressView_Example.modulemap */,
+				B4B4B88BB66B122854FCC198 /* Pods-HaidoraStepProgressView_Example-acknowledgements.markdown */,
+				0CF16974813B74F8EEB08526 /* Pods-HaidoraStepProgressView_Example-acknowledgements.plist */,
+				BD4CDF0A1C1682F15B17921D /* Pods-HaidoraStepProgressView_Example-dummy.m */,
+				9E6DAE2703F32A984C99A49D /* Pods-HaidoraStepProgressView_Example-environment.h */,
+				AB69F1B744180160ECEA7539 /* Pods-HaidoraStepProgressView_Example-frameworks.sh */,
+				A1F9B23DBA11649F01BE3090 /* Pods-HaidoraStepProgressView_Example-resources.sh */,
+				10D006ADD5C3D73621D8756A /* Pods-HaidoraStepProgressView_Example-umbrella.h */,
+				BCD32F096F6DE44A840CB708 /* Pods-HaidoraStepProgressView_Example.debug.xcconfig */,
+				27528C492DCA4634DCD43429 /* Pods-HaidoraStepProgressView_Example.release.xcconfig */,
+			);
+			name = "Pods-HaidoraStepProgressView_Example";
+			path = "Target Support Files/Pods-HaidoraStepProgressView_Example";
+			sourceTree = "<group>";
+		};
+		9E81E3599EDDD7D4F9B3E84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6B5D119459E801ACCA831 /* HaidoraStepProgressView.bundle */,
+				C15888075F5AC6B54A3F6224 /* HaidoraStepProgressView.bundle */,
+				064CD0A8710C6C139B50D82D /* HaidoraStepProgressView.framework */,
+				605B3F4C46F638572E12D7D6 /* HaidoraStepProgressView.framework */,
+				B206600F7EC395E29506B0D9 /* Pods_HaidoraStepProgressView_Example.framework */,
+				6A6C80D2DE838AFFDAB18829 /* Pods_HaidoraStepProgressView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8682F2F28EB8FC3AC3627E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				53122E15A0E7582DDB541C6C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		CD85CD0B4EF28C0AF6308AE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D61A89FCC7F98ADD5F9E71E /* Info.plist */,
+				3A4105A1400F1661B49F1E8C /* Info.plist */,
+				8B8922DB53A1B79E39D60CBC /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.modulemap */,
+				30ED68C0E9F4DC93352BEC81 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.xcconfig */,
+				F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */,
+				933E5313F45031B5C70AFAB9 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m */,
+				55FE69EF852BB368B0DC5FCD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-prefix.pch */,
+				0E29EFA899F2F175E61A63EA /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h */,
+				A898F7DD815C5270BEAB879B /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap */,
+				6996196B723F86169FA01D4D /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.xcconfig */,
+				C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */,
+				FA9139BA5E61BF244D930A19 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m */,
+				856ABC436CDE606ECBC2D2F7 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch */,
+				E17F294A64FCD3F3275EDC0C /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView";
+			sourceTree = "<group>";
+		};
+		D521562D85AC5889E9FCD815 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE629CE169D11C8334A29B54 /* HaidoraStepProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE629CE169D11C8334A29B54 /* HaidoraStepProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A8682F2F28EB8FC3AC3627E3 /* Pod */,
+				CD85CD0B4EF28C0AF6308AE4 /* Support Files */,
+			);
+			name = HaidoraStepProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37073D4365A951976B7BE947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5050C5D6287C230A68B1950 /* Pods-HaidoraStepProgressView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F9A67FB91894CED3A41EB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A924BE440163D82045F271E /* HDStepProgressView.h in Headers */,
+				A448B5430211E9F212404EDF /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B11EB904F12720BC69A9D43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D24B5C9A59F2701E65FB8F7 /* Pods-HaidoraStepProgressView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4FB65C322CA92ABBFFCB29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85DD7D3A1B13A22E177C9FF /* HDStepProgressView.h in Headers */,
+				76A5F0EEA75F389A60A6A940 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B771F992E8CB578D86191EC /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199DAC819A37E34405525A7A /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView" */;
+			buildPhases = (
+				415E37D8EE130346D5AF3CD0 /* Sources */,
+				31EAB2A94D941D1AE4F87028 /* Frameworks */,
+				8121D5E7EDEE8200EAC9FA6C /* Resources */,
+				58F9A67FB91894CED3A41EB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C415184038841B951B615E /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView";
+			productName = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView";
+			productReference = 064CD0A8710C6C139B50D82D /* HaidoraStepProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28893786558D1A13652C279F /* Pods-HaidoraStepProgressView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7083CE382F6EF29BCE73B35D /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests" */;
+			buildPhases = (
+				93A9121756B4989F7DC36454 /* Sources */,
+				A6309E893A2143E50FB010DC /* Frameworks */,
+				37073D4365A951976B7BE947 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F8FF7F7C50A4FEC561FE3A /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraStepProgressView_Tests";
+			productName = "Pods-HaidoraStepProgressView_Tests";
+			productReference = 6A6C80D2DE838AFFDAB18829 /* Pods_HaidoraStepProgressView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6075CD114589E3EB24647AE8 /* Pods-HaidoraStepProgressView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0290392577706809DF553809 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example" */;
+			buildPhases = (
+				2458CDB251D21FC79F4D3B29 /* Sources */,
+				FEDFA0124D01C7CB356B710A /* Frameworks */,
+				7B11EB904F12720BC69A9D43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403269C5E09FB892145517A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraStepProgressView_Example";
+			productName = "Pods-HaidoraStepProgressView_Example";
+			productReference = B206600F7EC395E29506B0D9 /* Pods_HaidoraStepProgressView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73B1C2D14BF443766B0E64C8 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96888F63485D4D58B5F7237 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView" */;
+			buildPhases = (
+				EC9FFED998ACA8CA1BD26539 /* Sources */,
+				1708F88A4523B691EA8BDEC4 /* Frameworks */,
+				29BBB03280C880B37D11CA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView";
+			productName = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView";
+			productReference = 1CA6B5D119459E801ACCA831 /* HaidoraStepProgressView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C10150967E9AD4FA6DB04C46 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4F8EC435CAE9D2DB1F016D /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView" */;
+			buildPhases = (
+				A84892D288328398294CF844 /* Sources */,
+				498CA0980746CB5B6621F753 /* Frameworks */,
+				484FA40026C90B7BB6BBCA77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView";
+			productName = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView";
+			productReference = C15888075F5AC6B54A3F6224 /* HaidoraStepProgressView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E0F927695AB14E30D7A13CA5 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764B879DD9B3639C284B2D95 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView" */;
+			buildPhases = (
+				6AD8C7F67AC581B69A1D9224 /* Sources */,
+				EF40562D5CC97019899817A5 /* Frameworks */,
+				925DD72299CEC5927098691D /* Resources */,
+				BD4FB65C322CA92ABBFFCB29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5936422AEC9532AD5159A2E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView";
+			productName = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView";
+			productReference = 605B3F4C46F638572E12D7D6 /* HaidoraStepProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903FBC4FF4D10CEEB5A587E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2ABD43CF15194694A182E66F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AED7E995527F721043943C8;
+			productRefGroup = 9E81E3599EDDD7D4F9B3E84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6075CD114589E3EB24647AE8 /* Pods-HaidoraStepProgressView_Example */,
+				1B771F992E8CB578D86191EC /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView */,
+				C10150967E9AD4FA6DB04C46 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView */,
+				28893786558D1A13652C279F /* Pods-HaidoraStepProgressView_Tests */,
+				E0F927695AB14E30D7A13CA5 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView */,
+				73B1C2D14BF443766B0E64C8 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29BBB03280C880B37D11CA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484FA40026C90B7BB6BBCA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8121D5E7EDEE8200EAC9FA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402E01CB39A588817BF04305 /* HaidoraStepProgressView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925DD72299CEC5927098691D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFAB72CA265F0085C61B4E4 /* HaidoraStepProgressView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2458CDB251D21FC79F4D3B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DD541C7E440E77378C1724 /* Pods-HaidoraStepProgressView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415E37D8EE130346D5AF3CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DE00CEE8752BA56004E65E /* HDStepProgressView.m in Sources */,
+				475E6500BD1CC6E809CD8D2F /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD8C7F67AC581B69A1D9224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011C621F66A19E0092B69D05 /* HDStepProgressView.m in Sources */,
+				F16502B7BB058042E155B54E /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A9121756B4989F7DC36454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF705A803B45A2A312A37AA4 /* Pods-HaidoraStepProgressView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84892D288328398294CF844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9FFED998ACA8CA1BD26539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F8FF7F7C50A4FEC561FE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView";
+			target = E0F927695AB14E30D7A13CA5 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView */;
+			targetProxy = CF10ACD2D082443E64878251 /* PBXContainerItemProxy */;
+		};
+		403269C5E09FB892145517A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView";
+			target = 1B771F992E8CB578D86191EC /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView */;
+			targetProxy = 5704817BD29B5B384FFE55ED /* PBXContainerItemProxy */;
+		};
+		42C415184038841B951B615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView";
+			target = C10150967E9AD4FA6DB04C46 /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView */;
+			targetProxy = 2FAE89989527737B09F9BE9F /* PBXContainerItemProxy */;
+		};
+		5936422AEC9532AD5159A2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView";
+			target = 73B1C2D14BF443766B0E64C8 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView */;
+			targetProxy = 1FB7D8000933F642080EB008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14599973CAEA93F4A2533828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FD16CF86351FEF6337DAB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39637300FF9E7F36625250C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HaidoraStepProgressView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CD68FD8D904FE2371CEE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DB619060801B322C349B09 /* Pods-HaidoraStepProgressView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests/Pods-HaidoraStepProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraStepProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A7FCD059F41935E2B85D7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HaidoraStepProgressView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		78DF3E428C3EE1E53C7CE321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981C793D40C05807B143C2EC /* Pods-HaidoraStepProgressView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests/Pods-HaidoraStepProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraStepProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FC8214A088897CE8A43C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27528C492DCA4634DCD43429 /* Pods-HaidoraStepProgressView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example/Pods-HaidoraStepProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraStepProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93779ABA9FC4710353B01266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E7933E2637C0831D5BC0366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC84ED61880BDB34B498094F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F8FA9C1C9FB9E7AC518DBD /* Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HaidoraStepProgressView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6B4D448205AACAA6A89D86F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD32F096F6DE44A840CB708 /* Pods-HaidoraStepProgressView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Example/Pods-HaidoraStepProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraStepProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71F2D91155ADA06611994C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView/Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDCE30E0F3E004A500B315A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C374B9F92A0EC87FF95C8274 /* Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HaidoraStepProgressView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HaidoraStepProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F1C9C99DF0CAEE68667B87B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0290392577706809DF553809 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B4D448205AACAA6A89D86F /* Debug */,
+				8FC8214A088897CE8A43C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199DAC819A37E34405525A7A /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93779ABA9FC4710353B01266 /* Debug */,
+				14599973CAEA93F4A2533828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4F8EC435CAE9D2DB1F016D /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Example-HaidoraStepProgressView-HaidoraStepProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7FCD059F41935E2B85D7A1 /* Debug */,
+				AC84ED61880BDB34B498094F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ABD43CF15194694A182E66F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C9C99DF0CAEE68667B87B2 /* Debug */,
+				9E7933E2637C0831D5BC0366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7083CE382F6EF29BCE73B35D /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DF3E428C3EE1E53C7CE321 /* Debug */,
+				3CD68FD8D904FE2371CEE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764B879DD9B3639C284B2D95 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD16CF86351FEF6337DAB49 /* Debug */,
+				B71F2D91155ADA06611994C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96888F63485D4D58B5F7237 /* Build configuration list for PBXNativeTarget "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-HaidoraStepProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39637300FF9E7F36625250C4 /* Debug */,
+				EDCE30E0F3E004A500B315A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903FBC4FF4D10CEEB5A587E4 /* Project object */;
+}

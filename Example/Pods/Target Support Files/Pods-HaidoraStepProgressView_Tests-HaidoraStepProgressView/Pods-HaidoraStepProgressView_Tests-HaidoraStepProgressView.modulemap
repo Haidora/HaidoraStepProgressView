@@ -1,0 +1,6 @@
+framework module HaidoraStepProgressView {
+  umbrella header "Pods-HaidoraStepProgressView_Tests-HaidoraStepProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
